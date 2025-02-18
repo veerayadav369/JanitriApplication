@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Details</title>
+</head>
+<body>
+    <h1>Patient Details</h1>
+    
+    <p><strong>ID:</strong> <span th:text="${patient.id}"></span></p>
+    <p><strong>Name:</strong> <span th:text="${patient.name}"></span></p>
+    <p><strong>Age:</strong> <span th:text="${patient.age}"></span></p>
+    <p><strong>Gender:</strong> <span th:text="${patient.gender}"></span></p>
+    <a href="/patients">Back to Patients List</a>
+</body>
+</html>
